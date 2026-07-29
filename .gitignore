@@ -1,0 +1,38 @@
+﻿# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# 大型数据集
+data_mill/
+new_machine_data1212/
+new_machine_data1219/
+mill.csv
+
+# 向量数据库（可自动从 PDF 重建）
+chroma_db_langchain/
+
+# 运行生成的临时文件
+temp_data/
+uploads/
+
+# 训练的模型权重
+*.pth
+
+# 运行生成的图片
+LSTM_result.png
+ra_result.png
+
+# SQLite 数据库
+indumind_storage.db
+
+# 子项目（独立仓库）
+Earth-Agent-main/
+
+# IDE 配置
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
