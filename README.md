@@ -81,7 +81,6 @@
 
 ### 安装步骤
 
-bash
 # 1. 克隆仓库
 git clone https://github.com/tangwan12/CutMind.git
 cd CutMind
