@@ -93,9 +93,9 @@ pip install -r requirements.txt
 ollama pull qwen3:8b
 
 # 4. 准备数据（可选，用于训练）
-# - NASA 铣削数据集放入 data_mill/ 目录
-# - 机床加工数据放入 new_machine_data1212/ 等目录
-# - 工业 PDF 文档放入 paper/ 目录（自动构建知识库）
+ - NASA 铣削数据集放入 data_mill/ 目录
+ - 机床加工数据放入 new_machine_data1212/ 等目录
+ - 工业 PDF 文档放入 paper/ 目录（自动构建知识库）
 
 # 5. 启动
 streamlit run app.py
